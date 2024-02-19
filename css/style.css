@@ -277,17 +277,17 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
+    padding-top: 177px;
+    padding-bottom: 177px;
 }
 .container-photorealistic{
-    display: block;
     margin: 0 auto;
-
+    align-items: center;
 }
 .photorealistic-btn {
-    margin-top: 183px;
-    margin-bottom: 29px; 
-    /* margin: 0 auto; */
+    margin-bottom: 24px; 
     align-items: center;
+    
     cursor: pointer;
 }
 
@@ -298,19 +298,35 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 36px;
     text-align: center;
     color: #fff;
+    margin-bottom: 13px;
+    max-width: 530px;
 }
 
-.photorealistic-text {
+.photorealistic-text{
     font-family: "Lora", sans-serif;
     font-weight: 400;
    font-size: 12px;
-   line-height: 167%;
+   line-height: 1.67;
     text-align: center;
     color: #e5e5e5;
+    max-width: 420px;
+  /* padding-bottom: 24px;
     border-bottom:1px solid #e5e5e5;
-
-  width: 30px;
-  height: 0px;
+    width: 30px;
+    height: 0px;  */
+    /* position: relative; */
 }
 
-.photorealistic-date {}
+.photorealistic-text::before {
+    /* content:'';
+    position: absolute; */
+
+}
+
+.photorealistic-date {
+    font-family: "Lora", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e5e5e5;
+  text-align: center;
+}
